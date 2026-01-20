@@ -24,14 +24,15 @@ body {
 #page_header {
     width: 640px;
     height: 140px; 
-    background: #E2D179 url(img/header.jpg) no-repeat center center;
+    background-color: #E2D179;
     background-size: cover;
     color: rgb(255, 255, 255);
-    box-sizing: border-box;
-    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
 }
-
 .header-content {
+    position: relative;
+    z-index: 1;
     padding-top: 30px; 
     padding-left: 20px; 
 }
